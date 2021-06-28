@@ -5,7 +5,7 @@ import { NzNotificationService } from 'ng-zorro-antd/notification';
 import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 import { ImgurService } from 'src/app/_services/imgur.service';
-import { IAlbum } from 'src/app/_shared/Imgur';
+import { IAlbum } from 'src/app/_shared/imgur';
 
 @Component({
   selector: 'app-update-album',
