@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ImgurService } from 'src/app/_services/imgur.service';
-import { IAlbum } from 'src/app/_shared/Imgur';
+import { IAlbum } from 'src/app/_shared/imgur';
 
 @Component({
   selector: 'app-list-album',
