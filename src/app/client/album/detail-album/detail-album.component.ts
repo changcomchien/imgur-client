@@ -2,7 +2,7 @@ import { Component, HostListener, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { map, switchMap } from 'rxjs/operators';
 import { ImgurService } from 'src/app/_services/imgur.service';
-import { IAlbum, Image } from 'src/app/_shared/Imgur';
+import { IAlbum, Image } from 'src/app/_shared/imgur';
 import {NzMessageService} from 'ng-zorro-antd/message';
 import {NzModalService} from 'ng-zorro-antd/modal';
 import { NzDrawerPlacement } from 'ng-zorro-antd/drawer';
