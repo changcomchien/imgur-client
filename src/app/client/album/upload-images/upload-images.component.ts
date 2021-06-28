@@ -3,7 +3,7 @@ import { Component, ElementRef, EventEmitter, Input, OnInit, Output, SimpleChang
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { Observable } from 'rxjs';
 import { ImgurService } from 'src/app/_services/imgur.service';
-import { IProgress } from 'src/app/_shared/Imgur';
+import { IProgress } from 'src/app/_shared/imgur';
 
 @Component({
   selector: 'app-upload-images',
