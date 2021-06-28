@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpEvent, HttpHeaders } from '@angular/common/http';
 import { delay, map } from 'rxjs/operators';
 import { Observable, of } from 'rxjs';
-import { IAlbum, Image } from '../_shared/Imgur';
+import { IAlbum, Image } from '../_shared/imgur';
 
 const API = 'https://api.imgur.com/3/';
 const httpOptions = {
